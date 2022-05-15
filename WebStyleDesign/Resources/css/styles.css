@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: rgb(245, 242, 230);
+    /* Fondo imagen
+    
+    background: url(../Images/fondo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto; */
+}
+
+h1 {
+  position: relative;
+  margin: 50px 250px 10px 250px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 0.03em;
+  text-shadow: 2px 2px 2px #000;
+  
+}
+
+.container {
+    margin: 10px 100px;
+    background-color: #fff;
+}
+
+h2 {
+    color: gray;
+    background-color: rgba(255, 155, 5, 0.3);
+    padding-left: 30px;
+}
+
+.color-container div {
+    display: inline-block;
+    padding: 10px 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color:rgb(61, 61, 61);
+}
+
+.color-label {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 20px;
+}
+
+.color-container .blue-bonito {
+    background-color: hsl(200, 100%, 42%);
+    text-align: center;
+}
+
+.color-container .pink {
+    background-color: rgb(255, 192, 203);
+    text-align: center;
+}
+
+.color-container .magenta {
+    background-color: rgb(255, 0, 123);
+    text-align: center;
+}
+
+.color-container .beige {
+    background-color: rgb(245, 245, 220);
+    text-align: center;
+    margin: 0 30px;
+}
+
+/* FUENTES */
+
+.fonts-container div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 26px;
+}
+
+
+.bold-kanit {font-weight: bold;}
+.italic-kanit {font-style: italic;}
+
+.macondo p {font-family: 'Macondo', cursive;}
+
+.regular-noto-sans {font-family: 'Noto Sans', sans-serif;}
+.bold-noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+.italic-noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+
+/* CUADRO DE TEXTOS */
+
+.text-container p {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 20px 20px;
+}
+
+
+
+
+
+
+
